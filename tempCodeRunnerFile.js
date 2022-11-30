@@ -1,0 +1,3 @@
+const {
+    address: { pinCode: myPincode },
+}

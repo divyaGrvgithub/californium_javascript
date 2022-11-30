@@ -166,8 +166,4 @@ const facebookProfiles = [
     return name;
     }
 
-    "alpha"
-    "25"
-    25
-    false
-    NaN
+    

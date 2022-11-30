@@ -45,7 +45,8 @@ const myData = {
 // destructure and store pincode into a vaiable named myPincode
 
 const {
-    address: { pinCode: myPincode },//it will store mypincode into address keystrin
+    address: { pinCode: myPincode },
+}= myData;//it will store mypincode into address keystrin
 
 
 // ============================================================================= //
