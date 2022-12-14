@@ -25,7 +25,7 @@ const cardData = [
     },
     ];
     // =========================================== 1
-    ==================================================== //
+    // ==================================================== //
     function findCard(value, suit) {
     for (let index = 0; index < cardData.length; index++) {
     const card = cardData[index];
@@ -35,9 +35,9 @@ const cardData = [
     }
     return false;
     }
-    // console.log(findCard(10, "club"))
+    console.log(findCard(10, "club"))
     // =========================================== 2
-    ==================================================== //
+    // ==================================================== //
     function getSuitsList() {
     const suitObject = {};
     for (let index = 0; index < cardData.length; index++) {
@@ -48,9 +48,9 @@ const cardData = [
     }
     return Object.keys(suitObject);
     }
-    // console.log(getSuitsList());
-    // =========================================== 3
-    ==================================================== //
+    console.log(getSuitsList());
+    // // =========================================== 3
+    // // ==================================================== //
     function getSuitsNumber() {
     const suitObject = {};
     for (let index = 0; index < cardData.length; index++) {
@@ -64,9 +64,9 @@ const cardData = [
     }
     return suitObject;
     }
-    // console.log(getSuitsNumber());
-    // =========================================== 4
-    ==================================================== //
+    console.log(getSuitsNumber());
+    // // =========================================== 4
+    // // ==================================================== //
     function getSuits() {
     const suitObject = {};
     for (let index = 0; index < cardData.length; index++) {
@@ -81,4 +81,4 @@ const cardData = [
     }
     return suitObject;
     }
-    // console.log(getSuits());
+    console.log(getSuits());
